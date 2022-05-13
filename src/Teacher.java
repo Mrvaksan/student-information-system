@@ -5,9 +5,9 @@ public class Teacher {
         Random random=new Random();
 
         for (int i = 0; i < count; i++) {
-            students[i].grade1= random.nextDouble(50.0,100.0);
-            students[i].grade2= random.nextDouble(50.0,100.0);
-            students[i].grade3= random.nextDouble(50.0,100.0);
+            students[i].grade1= random.nextDouble()*50+50.0;
+            students[i].grade2= random.nextDouble()*50+50.0;
+            students[i].grade3= random.nextDouble()*50+50.0;
         }
     }
 }
